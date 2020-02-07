@@ -7,20 +7,20 @@
 <!DOCTYPE HTML>
 <head>
   <title>FundraisingATM</title>
-  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-<script> 
-$(function(){
-  $("#header").load("includes/header.inc.html"); 
- 
-});
-</script>
+  <!-- Becuase Page.Github.com does not support PHP we will use JQuery to suppliment the includes-->
+  <script src="jquery.js"></script> 
+    <script> 
+    $(function(){
+      $("#includedContent").load("header.inc.html"); 
+    });
+    </script> 
+
 </head>
 
 <body>
-
+  <div id="includedContent"></div>
 <?php include 'includes/header.inc.php'; ?>
 <?php include 'navigation/fullSidebar_home.php'; ?>
-<!-- PHP is not able to load in static pages.github.com-->
 
 
     <div class="container">
