@@ -6,19 +6,11 @@
 
 <!DOCTYPE HTML>
 <head>
-  <title>FundraisingATM</title>
-  <!-- Becuase Page.Github.com does not support PHP we will use JQuery to suppliment the includes-->
-  <script src="jquery.js"></script> 
-    <script> 
-    $(function(){
-      $("#includedContent").load("includes/header.inc.html"); 
-    });
-    </script> 
-
+	<title>FundraisingATM</title>
 </head>
 
 <body>
-  <div id="includedContent"></div>
+
 <?php include 'includes/header.inc.php'; ?>
 <?php include 'navigation/fullSidebar_home.php'; ?>
 
