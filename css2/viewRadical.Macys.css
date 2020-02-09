@@ -1,0 +1,1464 @@
+header.shopByDepartmentStylingChangesEnabled .radical #mainNavigation div.redesign-main-menu-container ul.redesign-header-fobs>li.fob>a {
+    text-transform: capitalize;
+    font-size: .9375rem;
+    padding: .375rem .9375rem
+}
+
+header.shopByDepartmentStylingChangesEnabled .radical #mainNavigation div.redesign-main-menu-container ul.redesign-header-fobs>li.fob:last-child>a {
+    padding-bottom: .75rem
+}
+
+header.shopByDepartmentStylingChangesEnabled .radical #mainNavigation div.redesign-main-menu-container ul.redesign-header-fobs>li.fob:first-child>a {
+    padding-top: .75rem
+}
+
+header.shopByDepartmentStylingChangesEnabled .radical #mainNavigation div.redesign-main-menu-container div#mainNavigationFlyouts.redesign-header-flyouts-container {
+    margin-left: -.0625rem
+}
+
+header.shopByDepartmentStylingChangesEnabled .radical #mainNavigation div.redesign-main-menu-container div.redesign-header-flyouts-container>div {
+    border-left: .0625rem solid #e6e6e6
+}
+
+header.shopByDepartmentStylingChangesEnabled .radical #mainNavigation div.flyout-column ul:not(:first-child) {
+    padding-top: 1.5rem
+}
+
+header[data-uri].default #mainNavigation {
+    background-color: #000;
+    height: 2.5rem;
+    color: #fff;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif
+}
+
+header[data-uri].default #mainNavigation>ul {
+    width: 960px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    white-space: nowrap;
+    overflow: auto;
+    line-height: 1.25rem
+}
+
+header[data-uri].default #mainNavigation>ul>li {
+    padding: .625rem .5rem;
+    list-style: none;
+    line-height: 1.25rem
+}
+
+header[data-uri].default #mainNavigation>ul>li>a {
+    font-size: .875rem;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none
+}
+
+header[data-uri].default #mainNavigation>ul>li>div {
+    display: none
+}
+
+header[data-uri].default #mainNavigation>ul>li.selected {
+    background-color: #626369;
+    box-shadow: inset 0 .1875rem .375rem #2c2c37
+}
+
+header[data-uri].default #mainNavigation>ul>li.selected>a {
+    color: #fff
+}
+
+header[data-uri].default #mainNavigation>ul>li.selected-flyout {
+    background-color: #fff;
+    background-image: linear-gradient(#959499,#fff 18%)
+}
+
+header[data-uri].default #mainNavigation>ul>li.selected-flyout>a {
+    color: #000
+}
+
+header[data-uri].default #mainNavigation>ul>li.selected-flyout>div {
+    display: block
+}
+
+header[data-uri].default #mainNavigation>ul>li:nth-child(2)>div,header[data-uri].default #mainNavigation>ul>li:nth-child(3)>div {
+    margin-left: -30rem
+}
+
+header[data-uri].default #mainNavigation>ul>li>.custom-3-column {
+    width: 45rem;
+    margin-left: -15rem
+}
+
+header[data-uri].default #mainNavigation>ul>li>.custom-3-column>.flexbox {
+    width: 33%
+}
+
+header[data-uri].default #mainNavigation>ul>li>.custom-2-column {
+    width: 30rem;
+    margin-left: auto
+}
+
+header[data-uri].default #mainNavigation>ul>li>.custom-2-column>.flexbox {
+    width: 50%
+}
+
+header[data-uri].default #mainNavigation>ul>li>.custom-1-column {
+    width: 15.625rem
+}
+
+header[data-uri].default #mainNavigation>ul>li>.custom-1-column>.flexbox {
+    width: 100%
+}
+
+header[data-uri].radical #mainNavigation div.redesign-main-menu-container {
+    display: flex;
+    justify-content: flex-start;
+    width: 232px;
+    height: 100%;
+    overflow: hidden;
+    transition: width .3s ease,height .1s ease
+}
+
+header[data-uri].radical #mainNavigation div.redesign-main-menu-container div.redesign-header-fobs-container {
+    flex: 0 0 auto;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #696969;
+    width: 232px;
+    background-color: #fff;
+    -ms-overflow-style: none
+}
+
+header[data-uri].radical #mainNavigation div.redesign-main-menu-container ul.redesign-header-fobs {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: visible;
+    text-align: left;
+    color: #000;
+    font-weight: 400
+}
+
+header[data-uri].radical #mainNavigation div.redesign-main-menu-container ul.redesign-header-fobs>li {
+    display: block
+}
+
+header[data-uri].radical #mainNavigation div.redesign-main-menu-container ul.redesign-header-fobs>li>a {
+    padding: 12px 15px;
+    line-height: 18px;
+    display: block;
+    text-decoration: none
+}
+
+header[data-uri].radical #mainNavigation div.redesign-main-menu-container ul.redesign-header-fobs>li>a span {
+    position: relative
+}
+
+header[data-uri].radical #mainNavigation div.redesign-main-menu-container ul.redesign-header-fobs>li:last-child>a {
+    padding-bottom: 24px
+}
+
+header[data-uri].radical #mainNavigation div.redesign-main-menu-container ul.redesign-header-fobs>li>button.show-for-sr {
+    background-color: transparent!important;
+    transition: none!important;
+    border: none!important
+}
+
+header[data-uri].radical #mainNavigation div.redesign-main-menu-container ul.redesign-header-fobs>li.selected-flyout {
+    background-color: #fff;
+    font-weight: 700
+}
+
+header[data-uri].radical #mainNavigation div.redesign-main-menu-container ul.redesign-header-fobs>li.selected-flyout>a>span:after {
+    position: absolute;
+    display: block;
+    content: "";
+    left: -15px;
+    right: -.375rem;
+    height: 3px;
+    margin-top: 3px;
+    background-color: #e01a2b
+}
+
+header[data-uri].radical #mainNavigation div.redesign-main-menu-container.flyout-shown {
+    width: 100%
+}
+
+header[data-uri].radical #mainNavigation div.redesign-main-menu-container.flyout-shown div.redesign-header-fobs-container {
+    width: 232px
+}
+
+header[data-uri].radical #mainNavigation div.redesign-main-menu-container div.redesign-header-fobs-container {
+    max-height: 580px;
+    overflow-y: scroll
+}
+
+header[data-uri].radical #mainNavigation div.redesign-main-menu-container div.redesign-header-fobs-container ::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 7px
+}
+
+header[data-uri].radical #mainNavigation div.redesign-main-menu-container div.redesign-header-fobs-container ::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0,0,0,.5);
+    box-shadow: 0 0 1px hsla(0,0%,100%,.5)
+}
+
+header[data-uri].radical #mainNavigation div.redesign-main-menu-container div.redesign-header-flyouts-container {
+    flex: 1 1 auto;
+    padding: 0;
+    margin-left: -2px;
+    height: 100%
+}
+
+header[data-uri].radical #mainNavigation div.redesign-main-menu-container div.redesign-header-flyouts-container.redesign-header-flyouts-container-scrollbar {
+    border-left: 1px solid #bababa;
+    margin-left: 0
+}
+
+header[data-uri].radical #mainNavigation div.redesign-main-menu-container div.redesign-header-flyouts-container>div {
+    overflow: hidden;
+    display: none
+}
+
+header[data-uri].radical #mainNavigation div.redesign-main-menu-container div.redesign-header-flyouts-container>div.selected-flyout {
+    display: flex
+}
+
+header[data-uri].radical #mainNavigation div.redesign-main-menu-container div.redesign-header-flyouts-container>.custom-3-column {
+    width: 75%
+}
+
+header[data-uri].radical #mainNavigation div.redesign-main-menu-container div.redesign-header-flyouts-container>.custom-3-column>.flexbox {
+    width: 33%
+}
+
+header[data-uri].radical #mainNavigation div.redesign-main-menu-container div.redesign-header-flyouts-container>.custom-2-column {
+    width: 50%
+}
+
+header[data-uri].radical #mainNavigation div.redesign-main-menu-container div.redesign-header-flyouts-container>.custom-2-column>.flexbox {
+    width: 50%
+}
+
+header[data-uri].radical #mainNavigation div.redesign-main-menu-container div.redesign-header-flyouts-container>.custom-1-column {
+    width: 27%
+}
+
+header[data-uri].radical #mainNavigation div.redesign-main-menu-container div.redesign-header-flyouts-container>.custom-1-column>.flexbox {
+    width: 100%
+}
+
+header[data-uri].radical #mainNavigation div.redesign-main-menu-container div.redesign-header-flyouts-container .flyout-column {
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 10px;
+    min-width: 10rem;
+    white-space: normal
+}
+
+header[data-uri].radical #mainNavigation div.redesign-main-menu-container div.redesign-header-flyouts-container .flyout-column:first-child {
+    padding-left: .9375rem
+}
+
+header[data-uri].radical #mainNavigation div.redesign-main-menu-container div.redesign-header-flyouts-container .flyout-column:last-child {
+    padding-left: .9375rem
+}
+
+header[data-uri].radical #mainNavigation div.redesign-main-menu-container div.redesign-header-flyouts-container>div {
+    -webkit-animation-duration: .3s;
+    animation-duration: .3s;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: none;
+    animation-name: none;
+    -webkit-animation-timing-function: ease;
+    animation-timing-function: ease
+}
+
+header[data-uri].radical #mainNavigation div.redesign-main-menu-container div.redesign-header-fobs-container {
+    transition: width .1s ease
+}
+
+header[data-uri].radical #mainNavigation div.redesign-main-menu-container.animated-show ul.redesign-header-fobs>li.selected-flyout>a>span:after {
+    -webkit-animation-duration: .3s;
+    animation-duration: .3s;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: radicalStretch;
+    animation-name: radicalStretch;
+    -webkit-animation-timing-function: ease;
+    animation-timing-function: ease
+}
+
+header[data-uri].radical #mainNavigation div.redesign-main-menu-container.animated-show div.redesign-header-flyouts-container>div {
+    -webkit-animation-duration: .3s;
+    animation-duration: .3s;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: radicalMenuSlideFromLeft;
+    animation-name: radicalMenuSlideFromLeft;
+    -webkit-animation-timing-function: ease;
+    animation-timing-function: ease
+}
+
+header[data-uri].radical #mainNavigation div.redesign-main-menu-container.animated-show div.redesign-header-flyouts-container>div .flyout-column {
+    -webkit-animation-duration: .1s;
+    animation-duration: .1s;
+    -webkit-animation-delay: .1s;
+    animation-delay: .1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    -webkit-animation-timing-function: ease;
+    animation-timing-function: ease
+}
+
+header[data-uri].radical #mainNavigation div.redesign-main-menu-container.animated-change ul.redesign-header-fobs>li.selected-flyout>a>span:after {
+    -webkit-animation-duration: .3s;
+    animation-duration: .3s;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: radicalStretch;
+    animation-name: radicalStretch;
+    -webkit-animation-timing-function: ease;
+    animation-timing-function: ease
+}
+
+header[data-uri].radical #mainNavigation div.redesign-main-menu-container.animated-hide ul.redesign-header-fobs>li.selected-flyout>a>span:after {
+    -webkit-animation-duration: .3s;
+    animation-duration: .3s;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: radicalShorten;
+    animation-name: radicalShorten;
+    -webkit-animation-timing-function: ease;
+    animation-timing-function: ease
+}
+
+header[data-uri].radical #mainNavigation div.redesign-main-menu-container.animated-hide div.redesign-header-flyouts-container>div {
+    -webkit-animation-duration: .3s;
+    animation-duration: .3s;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: radicalMenuSlideToLeft;
+    animation-name: radicalMenuSlideToLeft;
+    -webkit-animation-timing-function: ease;
+    animation-timing-function: ease
+}
+
+header[data-uri].radical #mainNavigation div.redesign-main-menu-container.animated-hide div.redesign-header-flyouts-container>div .flyout-column {
+    -webkit-animation-duration: .1s;
+    animation-duration: .1s;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: fadeOut;
+    animation-name: fadeOut;
+    -webkit-animation-timing-function: ease;
+    animation-timing-function: ease
+}
+
+header[data-uri].default .show-for-large-only {
+    display: block
+}
+
+header[data-uri].default div[class^=flyout_] {
+    box-shadow: 0 10px 15px rgba(51,51,51,.4);
+    min-height: 24.75rem;
+    background-color: #fff;
+    width: 61.25rem;
+    position: absolute;
+    z-index: 9999;
+    padding-bottom: 1rem;
+    left: 50%;
+    margin-left: -30rem;
+    top: 11.1875rem;
+    font-size: 14px
+}
+
+header[data-uri].default div[class^=flyout_] div {
+    padding-left: 0;
+    min-height: 24.375rem;
+    margin-top: 1rem
+}
+
+header[data-uri].default div[class^=flyout_] div:not(:first-child) {
+    border-right: 0 solid #d6d6d6;
+    background-image: url(/assets/images/header-flyoutout-verticalRule.jpg);
+    background-repeat: no-repeat;
+    background-position: left 10px;
+    background-size: auto 100%
+}
+
+header[data-uri].default div[class^=flyout_] div.small-4 {
+    width: 23.25%
+}
+
+header[data-uri].default div[class^=flyout_] div div {
+    padding-left: .625rem;
+    margin: 0
+}
+
+header[data-uri].default div[class^=flyout_] div div:not(:first-child) {
+    padding-top: .9375rem
+}
+
+header[data-uri].default div[class^=flyout_] div div img {
+    max-width: 95%
+}
+
+header[data-uri].default div[class^=flyout_] div div label {
+    font-size: .875rem
+}
+
+header[data-uri].default div[class^=flyout_] div div a {
+    display: block;
+    line-height: 1.5rem;
+    text-decoration: none;
+    font-weight: 400
+}
+
+header[data-uri].default div[class^=flyout_] div div a.special {
+    color: #e01a2b
+}
+
+header[data-uri].default div[class^=flyout_] div div a:hover {
+    text-decoration: underline
+}
+
+header[data-uri].default div[class^=flyout_] div:last-child {
+    border-right: 0 solid;
+    width: 30%
+}
+
+header[data-uri].default div.flyout_64967 {
+    width: 13.125rem
+}
+
+header[data-uri].radical div[class^=flyout_] {
+    float: none;
+    min-height: inherit;
+    background-color: #fff;
+    right: 0;
+    position: absolute;
+    top: 46px;
+    border: 1px solid #bababa;
+    border-top: none;
+    padding: 15px .9375rem 18px;
+    font-size: 14px
+}
+
+header[data-uri].radical div[class^=flyout_] div.flyout-column {
+    min-width: 25%
+}
+
+header[data-uri].radical div[class^=flyout_] div.flyout-column div {
+    padding: 0;
+    margin: 0
+}
+
+header[data-uri].radical div[class^=flyout_] div.flyout-column div:not(:first-child) {
+    padding-top: 1.875rem
+}
+
+header[data-uri].radical div[class^=flyout_] div.flyout-column div img {
+    max-width: 100%;
+    margin: 7px 0 0
+}
+
+header[data-uri].radical div[class^=flyout_] div.flyout-column div a {
+    text-decoration: none;
+    font-weight: 400;
+    display: block;
+    line-height: 24px
+}
+
+header[data-uri].radical div[class^=flyout_] div.flyout-column div a.special {
+    color: #e01a2b
+}
+
+header[data-uri].radical div[class^=flyout_] div.flyout-column div a:hover {
+    text-decoration: underline
+}
+
+header[data-uri].radical div[class^=flyout_] div.flyout-column label {
+    display: inline-block;
+    margin: 0;
+    padding-bottom: 8px;
+    text-transform: capitalize;
+    font-size: .875rem;
+    font-weight: 700;
+    line-height: 1.8;
+    color: #333
+}
+
+header[data-uri].radical div[class^=flyout_] div.flyout-column h5 {
+    font-weight: 700
+}
+
+header[data-uri].radical div.flyout_64967 {
+    left: 0
+}
+
+header[data-uri].radical div.flyout_16908,header[data-uri].radical div.flyout_47587,header[data-uri].radical div.flyout_72435 {
+    left: 25%
+}
+
+header[data-uri].radical [class*=flyout]:last-child {
+    float: none
+}
+
+header[data-uri].radical div[class^=flyout_] {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+    width: auto;
+    margin: 0;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+    height: 100%;
+    border: 1px solid #696969;
+    border-left: none
+}
+
+@media only screen and (max-width: 64rem) and (min-width:0) {
+    header[data-uri].default div[class^=flyout_] {
+        left:32rem;
+        clear: both
+    }
+
+    header[data-uri].default #mainNavigation>ul>li.selected-flyout>div {
+        display: table
+    }
+}
+
+#help-overlay-holder,#help-overlay-lightbox {
+    z-index: 1000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+}
+
+#help-overlay-lightbox {
+    background-color: #fff;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=75);
+    opacity: .75
+}
+
+.helpInlineBlock {
+    display: inline-block
+}
+
+#help-overlay-holder {
+    z-index: 2000
+}
+
+#help-overlay-holder .help-overlay {
+    margin-top: 12.9375rem
+}
+
+#help-overlay-holder section#helpOverlayContainer {
+    position: absolute;
+    left: 50%;
+    margin-left: -16.625rem;
+    width: 28.75rem;
+    height: 21.5625rem;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px 0 #ddd;
+    margin-top: -31.25rem;
+    z-index: 3000
+}
+
+#help-overlay-holder section#helpOverlayContainer .help-overlay {
+    margin-top: 12.9375rem
+}
+
+#help-overlay-holder section#helpOverlayContainer .overlay-header {
+    height: 4.5625rem
+}
+
+#help-overlay-holder section#helpOverlayContainer .overlay-header .help {
+    padding: 1.125rem 0 1.125rem 10.625rem
+}
+
+#help-overlay-holder section#helpOverlayContainer .overlay-header .help span {
+    color: #000;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 2.25rem;
+    margin-left: -1.875rem
+}
+
+#help-overlay-holder section#helpOverlayContainer .overlay-header #overlayCloseBtn {
+    margin-right: .9375rem;
+    margin-top: .9375rem
+}
+
+#help-overlay-holder section#helpOverlayContainer .helpborder {
+    width: 89%;
+    border-bottom: .0625rem solid #959499;
+    margin-left: 1.5625rem
+}
+
+#help-overlay-holder section#helpOverlayContainer .overlay-body {
+    height: 260px
+}
+
+#help-overlay-holder section#helpOverlayContainer .overlay-body>div:first-child .help-sub-body {
+    border-right: .0625rem solid #959499
+}
+
+#help-overlay-holder section#helpOverlayContainer .overlay-body .help-sub-body {
+    text-align: center;
+    padding-top: 1.6875rem;
+    height: 13.75rem;
+    margin: 0 auto .9375rem
+}
+
+#help-overlay-holder section#helpOverlayContainer .overlay-body .help-sub-body .help-body-header {
+    color: #000;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 1.375rem;
+    margin: 1.25rem auto;
+    font-weight: 700
+}
+
+#help-overlay-holder section#helpOverlayContainer .overlay-body .help-sub-body .help-body-subheader {
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 1rem;
+    line-height: 1.125rem;
+    margin-top: -1rem;
+    color: #000
+}
+
+#help-overlay-holder section#helpOverlayContainer .overlay-body .help-sub-body .button {
+    margin: 1.1875rem auto;
+    width: 8.125rem;
+    height: 2rem;
+    background-color: #9ac3b9;
+    filter: none;
+    border: none;
+    padding-top: .5rem;
+    line-height: .9375rem
+}
+
+#help-overlay-holder section#helpOverlayContainer .overlay-body .help-sub-body .button span {
+    font-size: .75rem;
+    font-weight: 400;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif
+}
+
+#help-overlay-holder section#helpOverlayContainer .overlay-body .help-sub-body .callUsInfo {
+    font-size: 1rem;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    margin-top: .625rem;
+    text-align: left;
+    margin-left: 1.5rem
+}
+
+#help-overlay-holder section#helpOverlayContainer .overlay-body .help-sub-body .callUsInfo .mon {
+    margin-right: 1.375rem;
+    display: inline
+}
+
+#help-overlay-holder section#helpOverlayContainer .overlay-body .help-sub-body .callUsInfo .sat {
+    margin-right: 3.4375rem;
+    display: inline
+}
+
+#help-overlay-holder section#helpOverlayContainer .overlay-body .help-sub-body .callUsInfo .sun {
+    margin-right: 3.1875rem;
+    display: inline
+}
+
+#help-overlay-holder section#helpOverlayContainer .faq {
+    font-size: 1rem;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-align: center;
+    margin-top: -1.3125rem
+}
+
+#help-overlay-holder section#helpOverlayContainer .overlay-footer {
+    height: 6.9375rem;
+    background-color: #d6d6d6;
+    font-size: .875rem;
+    line-height: 1.1875rem;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #000;
+    padding-top: .75rem
+}
+
+#help-overlay-holder section#helpOverlayContainer .overlay-footer #overlay_footer_msg {
+    padding-top: .9375rem
+}
+
+#help-overlay-holder section#helpOverlayContainer .overlay-footer .footer-image {
+    padding-left: 1.875rem
+}
+
+@-webkit-keyframes fadeOut {
+    0% {
+        opacity: 1
+    }
+
+    to {
+        opacity: 0
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1
+    }
+
+    to {
+        opacity: 0
+    }
+}
+
+@-webkit-keyframes fadeInOverlay {
+    0% {
+        opacity: 0
+    }
+
+    to {
+        opacity: .75
+    }
+}
+
+@keyframes fadeInOverlay {
+    0% {
+        opacity: 0
+    }
+
+    to {
+        opacity: .75
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes cleanSlide {
+    0% {
+        max-height: 0;
+        min-height: 0;
+        padding-top: 0;
+        padding-bottom: 0
+    }
+
+    to {
+        min-height: inherit;
+        max-height: 1000px
+    }
+}
+
+@keyframes cleanSlide {
+    0% {
+        max-height: 0;
+        min-height: 0;
+        padding-top: 0;
+        padding-bottom: 0
+    }
+
+    to {
+        min-height: inherit;
+        max-height: 1000px
+    }
+}
+
+@-webkit-keyframes cleanSlideToTop {
+    0% {
+        min-height: inherit;
+        max-height: 1000px
+    }
+
+    to {
+        max-height: 0;
+        min-height: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        border-bottom-width: 0
+    }
+}
+
+@keyframes cleanSlideToTop {
+    0% {
+        min-height: inherit;
+        max-height: 1000px
+    }
+
+    to {
+        max-height: 0;
+        min-height: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        border-bottom-width: 0
+    }
+}
+
+@-webkit-keyframes cleanStretch {
+    0% {
+        margin-left: 50%;
+        width: 0
+    }
+
+    to {
+        margin-left: 0;
+        width: 100%
+    }
+}
+
+@keyframes cleanStretch {
+    0% {
+        margin-left: 50%;
+        width: 0
+    }
+
+    to {
+        margin-left: 0;
+        width: 100%
+    }
+}
+
+@-webkit-keyframes radicalStretch {
+    0% {
+        right: 130%
+    }
+
+    to {
+        right: -6px
+    }
+}
+
+@keyframes radicalStretch {
+    0% {
+        right: 130%
+    }
+
+    to {
+        right: -6px
+    }
+}
+
+@-webkit-keyframes cleanShorten {
+    0% {
+        margin-left: 0;
+        width: 100%
+    }
+
+    to {
+        margin-left: 50%;
+        width: 0
+    }
+}
+
+@keyframes cleanShorten {
+    0% {
+        margin-left: 0;
+        width: 100%
+    }
+
+    to {
+        margin-left: 50%;
+        width: 0
+    }
+}
+
+@-webkit-keyframes radicalShorten {
+    0% {
+        right: -6px
+    }
+
+    to {
+        right: 130%
+    }
+}
+
+@keyframes radicalShorten {
+    0% {
+        right: -6px
+    }
+
+    to {
+        right: 130%
+    }
+}
+
+@-webkit-keyframes cleanRotate {
+    0% {
+        transform: rotate(0)
+    }
+
+    to {
+        transform: rotate(-180deg)
+    }
+}
+
+@keyframes cleanRotate {
+    0% {
+        transform: rotate(0)
+    }
+
+    to {
+        transform: rotate(-180deg)
+    }
+}
+
+@-webkit-keyframes cleanRotateBack {
+    0% {
+        transform: rotate(-180deg)
+    }
+
+    to {
+        transform: rotate(0)
+    }
+}
+
+@keyframes cleanRotateBack {
+    0% {
+        transform: rotate(-180deg)
+    }
+
+    to {
+        transform: rotate(0)
+    }
+}
+
+@-webkit-keyframes radicalMenuSlideFromLeft {
+    0% {
+        padding-left: 0;
+        padding-right: 0;
+        margin-right: 100%
+    }
+
+    to {
+        margin-right: 0
+    }
+}
+
+@keyframes radicalMenuSlideFromLeft {
+    0% {
+        padding-left: 0;
+        padding-right: 0;
+        margin-right: 100%
+    }
+
+    to {
+        margin-right: 0
+    }
+}
+
+@-webkit-keyframes radicalMenuSlideToLeft {
+    0% {
+        margin-right: 0
+    }
+
+    to {
+        padding-left: 0;
+        padding-right: 0;
+        margin-right: 100%
+    }
+}
+
+@keyframes radicalMenuSlideToLeft {
+    0% {
+        margin-right: 0
+    }
+
+    to {
+        padding-left: 0;
+        padding-right: 0;
+        margin-right: 100%
+    }
+}
+
+div.redesign-header-overlay.radical.searchBarRedesignConceptC {
+    background-color: #000!important
+}
+
+header.radical {
+    height: auto;
+    position: relative
+}
+
+.redesign-header {
+    font-size: 14px
+}
+
+.redesign-header .redesign-header-content {
+    position: relative;
+    width: 100%;
+    min-width: 1024px;
+    z-index: 3;
+    border-bottom: 1px solid #bababa;
+    background-color: #fff
+}
+
+.redesign-header .redesign-header-wrapper {
+    min-width: 1024px;
+    max-width: 1264px;
+    margin: 0 auto;
+    padding: 0 32px
+}
+
+.redesign-header .redesign-header-links {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px
+}
+
+.redesign-header .redesign-header-links-col.redesign-header-links-col-left {
+    flex: 0 0 auto
+}
+
+.redesign-header .redesign-header-links-col.redesign-header-links-col-center {
+    flex: 1 1 auto;
+    min-width: 0;
+    overflow: hidden
+}
+
+.redesign-header .redesign-header-links-col.redesign-header-links-col-right {
+    flex: 0 0 auto
+}
+
+.redesign-header .redesign-header-nav {
+    display: table
+}
+
+.redesign-header .redesign-header-nav ul.redesign-header-nav-list {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-weight: regular
+}
+
+.redesign-header .redesign-header-nav ul.redesign-header-nav-list li.redesign-header-nav-list-item {
+    display: inline-block;
+    margin: 0 8px
+}
+
+.redesign-header .redesign-header-nav ul.redesign-header-nav-list li.redesign-header-nav-list-item a,.redesign-header .redesign-header-nav ul.redesign-header-nav-list li.redesign-header-nav-list-item span {
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer
+}
+
+.redesign-header .redesign-header-nav ul.redesign-header-nav-list li.redesign-header-nav-list-item a:hover {
+    text-decoration: underline
+}
+
+.redesign-header .redesign-header-nav ul.redesign-header-nav-list li.redesign-header-nav-list-item .redesign-header-country-flag {
+    display: inline-block;
+    margin: 0 0 0 5px
+}
+
+.redesign-header .redesign-header-nav ul.redesign-header-nav-list li.redesign-header-nav-list-item .redesign-header-country-flag img {
+    margin: -2px 0 0;
+    border: 1px solid #bababa
+}
+
+.redesign-header .redesign-header-nav ul.redesign-header-nav-list li.redesign-header-nav-list-item.data-driven-my-account {
+    bottom: .5rem
+}
+
+.redesign-header .redesign-header-nav ul.redesign-header-nav-list li.redesign-header-nav-list-item div#signin-myaccount .icon-profile-gr-full,.redesign-header .redesign-header-nav ul.redesign-header-nav-list li.redesign-header-nav-list-item div#signin-myaccount .icon-profile-gr-huge,.redesign-header .redesign-header-nav ul.redesign-header-nav-list li.redesign-header-nav-list-item div#signin-myaccount .icon-profile-gr-large,.redesign-header .redesign-header-nav ul.redesign-header-nav-list li.redesign-header-nav-list-item div#signin-myaccount .icon-profile-gr-medium,.redesign-header .redesign-header-nav ul.redesign-header-nav-list li.redesign-header-nav-list-item div#signin-myaccount .icon-profile-gr-small,.redesign-header .redesign-header-nav ul.redesign-header-nav-list li.redesign-header-nav-list-item div#signin-myaccount .icon-profile-gr-tiny {
+    background: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iNSIgY3k9IjUiIHI9IjUiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDcgMikiLz48cGF0aCBkPSJNMSAyMmgyMnYtMWMtLjQtMy45LTMuNy03LTcuNy03SDguN2MtNCAwLTcuMyAzLjEtNy42IDcuMUwxIDIyeiIvPjwvc3ZnPg==");
+    background-repeat: no-repeat
+}
+
+.redesign-header .redesign-header-nav ul.redesign-header-nav-list li.redesign-header-nav-list-item div#signin-myaccount .icon-profile-gr-full {
+    width: 40px;
+    height: 40px;
+    background-size: 40px 40px
+}
+
+.redesign-header .redesign-header-nav ul.redesign-header-nav-list li.redesign-header-nav-list-item div#signin-myaccount .icon-profile-gr-huge {
+    width: 30px;
+    height: 30px;
+    background-size: 30px 30px
+}
+
+.redesign-header .redesign-header-nav ul.redesign-header-nav-list li.redesign-header-nav-list-item div#signin-myaccount .icon-profile-gr-large {
+    width: 25px;
+    height: 25px;
+    background-size: 25px 25px
+}
+
+.redesign-header .redesign-header-nav ul.redesign-header-nav-list li.redesign-header-nav-list-item div#signin-myaccount .icon-profile-gr-medium {
+    width: 20px;
+    height: 20px;
+    background-size: 20px 20px
+}
+
+.redesign-header .redesign-header-nav ul.redesign-header-nav-list li.redesign-header-nav-list-item div#signin-myaccount .icon-profile-gr-small {
+    width: 15px;
+    height: 15px;
+    background-size: 15px 15px
+}
+
+.redesign-header .redesign-header-nav ul.redesign-header-nav-list li.redesign-header-nav-list-item div#signin-myaccount .icon-profile-gr-tiny {
+    width: 8px;
+    height: 8px;
+    background-size: 8px 8px
+}
+
+.redesign-header .redesign-header-nav ul.redesign-header-nav-list li.redesign-header-nav-list-item div#signin-myaccount [class*=icon-profile-] {
+    background-position: unset
+}
+
+.redesign-header .redesign-header-nav ul.redesign-header-nav-list li.redesign-header-nav-list-item div#signin-myaccount #myaccount-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+}
+
+.redesign-header .redesign-header-nav ul.redesign-header-nav-list li.redesign-header-nav-list-item div#signin-myaccount #myaccount-container a {
+    flex-direction: column;
+    margin-left: .375rem;
+    display: flex
+}
+
+.redesign-header .redesign-header-nav ul.redesign-header-nav-list li.redesign-header-nav-list-item div#signin-myaccount #myaccount-container a span {
+    text-transform: none
+}
+
+.redesign-header .redesign-header-nav ul.redesign-header-nav-list li.redesign-header-nav-list-item div#signin-myaccount #myaccount-container a span.tier-myaccount {
+    font-weight: 700
+}
+
+.redesign-header .redesign-header-user {
+    font-weight: 700;
+    margin-right: .3125rem;
+    padding-left: 1.875rem;
+    display: inline-block;
+    vertical-align: bottom;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    width: 100%
+}
+
+.redesign-header li.dropdown {
+    position: relative;
+    overflow: visible;
+    text-align: left
+}
+
+.redesign-header li.dropdown .dropdown-caret {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -.1875rem;
+    background-repeat: no-repeat;
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjQwIiBoZWlnaHQ9IjQwIj48cGF0aCBkPSJNMjAgMzEuMjVsMTEuMjUtMTcuNUg4Ljc1eiIvPjwvc3ZnPg==");
+    height: .9375rem;
+    width: .9375rem;
+    background-size: .9375rem;
+    background-position: 50%
+}
+
+.redesign-header li.dropdown ul.dropdown-list {
+    display: none;
+    list-style: none;
+    margin: 7px 0 0;
+    padding: 18px 18px 16px;
+    position: absolute;
+    width: 200px;
+    z-index: 25;
+    background-color: #fff;
+    border: 1px solid #bababa;
+    overflow: hidden
+}
+
+.redesign-header li.dropdown ul.dropdown-list a {
+    display: block
+}
+
+.redesign-header li.dropdown ul.dropdown-list.dropdown-list-align-left {
+    left: 0;
+    right: inherit
+}
+
+.redesign-header li.dropdown ul.dropdown-list.dropdown-list-align-right {
+    left: inherit;
+    right: 0
+}
+
+.redesign-header li.dropdown li.dropdown-item {
+    list-style: none;
+    display: block;
+    line-height: 16px;
+    margin: 0 0 14px
+}
+
+.redesign-header li.dropdown li.dropdown-item:last-child {
+    margin: 0
+}
+
+.redesign-header li.dropdown.dropdown-shown ul.dropdown-list {
+    display: flex;
+    flex-direction: column
+}
+
+.redesign-header li.dropdown.dropdown-shown .dropdown-item {
+    order: 1
+}
+
+.redesign-header li.dropdown.dropdown-shown:after,.redesign-header li.dropdown.dropdown-shown:before {
+    bottom: -.5rem;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    z-index: 26
+}
+
+.redesign-header li.dropdown.dropdown-shown:before {
+    border-bottom-color: #bababa;
+    border-width: .5rem;
+    margin-left: -.5rem
+}
+
+.redesign-header li.dropdown.dropdown-shown:after {
+    border-bottom-color: #fff;
+    border-width: .4375rem;
+    margin-left: -.4375rem
+}
+
+.redesign-header li.dropdown.dropdown-shown #myaccount-dropdown-signin-or-out.myaccount-dropdown-signin {
+    order: 0;
+    margin-bottom: .875rem
+}
+
+.redesign-header .redesign-header-links-col.text-left li.redesign-header-nav-list-item:first-child {
+    margin-left: 0
+}
+
+.redesign-header .redesign-header-links-col.text-right .redesign-header-nav {
+    width: 100%
+}
+
+.redesign-header .redesign-header-links-col.text-right li.redesign-header-nav-list-item:last-child {
+    margin-right: 0
+}
+
+.redesign-header .redesign-header-logo {
+    width: 173px;
+    height: 45px
+}
+
+.redesign-header #core {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: start
+}
+
+.redesign-header #logo {
+    height: 45px
+}
+
+.redesign-header #logo svg {
+    width: 173px
+}
+
+.redesign-header #search-bag-wrapper {
+    width: 602px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: start
+}
+
+.redesign-header.radical .redesign-header-links {
+    height: 102px
+}
+
+.redesign-header.radical .redesign-header-logo {
+    float: left;
+    margin: 25px 40px 0 0
+}
+
+.redesign-header.radical .redesign-header-radical-category-dropdown {
+    width: 232px;
+    font-weight: 700;
+    border: 1px solid #696969;
+    text-align: left
+}
+
+.redesign-header.radical .redesign-header-radical-category-dropdown .redesign-header-category-dropdown-label {
+    height: 35px;
+    line-height: 35px;
+    padding-left: 15px;
+    font-size: 16px;
+    white-space: nowrap;
+    cursor: default
+}
+
+.redesign-header.radical .redesign-header-radical-category-dropdown .redesign-header-category-dropdown-label span {
+    cursor: default
+}
+
+.redesign-header.radical .redesign-header-radical-category-dropdown .redesign-header-category-dropdown-list {
+    display: none;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    top: 34px;
+    font-size: 16px
+}
+
+.redesign-header.radical .redesign-header-radical-category-dropdown .redesign-header-category-dropdown-caret {
+    display: inline-block;
+    vertical-align: middle;
+    background-color: transparent;
+    overflow: hidden;
+    border: none;
+    padding: 0;
+    margin: -.1875rem 0 0;
+    background-repeat: no-repeat;
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjQwIiBoZWlnaHQ9IjQwIj48cGF0aCBkPSJNMjAgMzEuMjVsMTEuMjUtMTcuNUg4Ljc1eiIvPjwvc3ZnPg==");
+    height: .9375rem;
+    width: .9375rem;
+    background-size: .9375rem;
+    background-position: 50%
+}
+
+.redesign-header.radical .redesign-header-radical-category-dropdown.dropdown-shown ::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: .4375rem
+}
+
+.redesign-header.radical .redesign-header-radical-category-dropdown.dropdown-shown ::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0,0,0,.5);
+    box-shadow: 0 0 1px hsla(0,0%,100%,.5)
+}
+
+.redesign-header.radical .redesign-header-radical-category-dropdown.dropdown-shown .redesign-header-category-dropdown-list {
+    display: block
+}
+
+.redesign-header.radical .redesign-header-radical-category-dropdown.animated-show .redesign-header-category-dropdown-list {
+    -webkit-animation-duration: .3s;
+    animation-duration: .3s;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: cleanSlide;
+    animation-name: cleanSlide;
+    -webkit-animation-timing-function: ease;
+    animation-timing-function: ease
+}
+
+.redesign-header.radical .redesign-header-radical-category-dropdown.animated-show .redesign-header-category-dropdown-caret {
+    -webkit-animation-duration: .3s;
+    animation-duration: .3s;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: cleanRotate;
+    animation-name: cleanRotate;
+    -webkit-animation-timing-function: ease;
+    animation-timing-function: ease
+}
+
+.redesign-header.radical .redesign-header-radical-category-dropdown.animated-hide .redesign-header-category-dropdown-list {
+    -webkit-animation-duration: .3s;
+    animation-duration: .3s;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: cleanSlideToTop;
+    animation-name: cleanSlideToTop;
+    -webkit-animation-timing-function: ease;
+    animation-timing-function: ease
+}
+
+.redesign-header.radical .redesign-header-radical-category-dropdown.animated-hide .redesign-header-category-dropdown-caret {
+    -webkit-animation-duration: .3s;
+    animation-duration: .3s;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: cleanRotateBack;
+    animation-name: cleanRotateBack;
+    -webkit-animation-timing-function: ease;
+    animation-timing-function: ease
+}
+
+.redesign-header.radical .redesign-header-nav {
+    padding-top: 10px;
+    height: 102px
+}
+
+.redesign-header.radical .redesign-header-links-col-left .redesign-header-nav {
+    float: left
+}
+
+.redesign-header.radical .redesign-header-core {
+    position: relative;
+    height: 35px;
+    margin-bottom: 1.25rem
+}
+
+.redesign-header.radical .redesign-header-media a {
+    text-decoration: underline
+}
+
+.redesign-header.radical .redesign-header-user {
+    line-height: 112px
+}
