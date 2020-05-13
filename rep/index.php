@@ -11,7 +11,7 @@
 <?php include 'leftSidebarNavRep.php'; ?>
 
 <div id="content">
-  <h1>Welcome to FundraisingATM!</h1>
+  <h1>Welcome to Great Moods!</h1>
   <h3>FundraisingATM Great Fundraising!</h3>
 
   <div id="column1">
