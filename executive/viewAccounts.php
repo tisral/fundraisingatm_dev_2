@@ -7,17 +7,18 @@
        }
        */
        ob_start();
-	include "connectTo.php";
-
+	
 	$id = $_SESSION['userId'];
     echo $_SESSION["userId"];
-	$link = connectTo();
+	
 
 	$table1 = "user_info";
 	$table2 = "users";
 	$table3 = "distributors";
 
 ?>
+
+
 <!DOCTYPE html>
 <head>
 	<title>FundraisingATM | Executive</title>
@@ -29,9 +30,19 @@
 </head>
 
 <body>
+
 <div id="container">
-      <?php include 'header.inc.php' ; ?>
-      <?php include 'sidenav.php' ; ?>
+
+
+
+	  <?php 
+	  		include 'header.inc.php' ;
+			include 'sidenav.php' ;
+			include "connectTo.php";
+			$link = connectTo();
+		?>
+
+
 
       <div id="content">
           <h1>View Team & Accounts</h1>
@@ -42,7 +53,7 @@
 		<div id="table">
 			<div class="row">
 				<div id="acctselect">
-				Select VP
+				
 					<select class="acctlist" name="vpid" onchange="fetch_select(this.value);">
 					<option>Select VP Account</option>
 					
@@ -50,16 +61,20 @@
 					require_once('executive_vp_query.php');
 					?>
 
-				</select>
-				<select id="new_select"  name="scid" onchange="fetch_select2(this.value);">
-				        <option>Select Sales Coordinator</option>
 					</select>
+
+					<select id="new_select"  name="scid" onchange="fetch_select2(this.value);">
+				    <option>Select Sales Coordinator</option>
+					</select>
+
 					<select id="new_select2"  name="rpid" onchange="fetch_select3(this.value);">
 					<option>Select Representative</option>
 					</select>
+
 					<select id="new_select3"  name="fundid" onchange="fetch_select4(this.value);">
 					<option>Select Fundraiser Account</option>
 					</select>
+					
 					<select id="new_select4"  name="memdid" onchange="fetch_select5(this.value);">
 					<option>Select Member</option>
 					</select>
