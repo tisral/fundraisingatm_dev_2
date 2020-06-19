@@ -77,7 +77,7 @@
 
 <body>
 <div id="container">
-	<?php include 'includes/header_sample.php'; ?>
+	<?php include 'includes/header.inc.php'; ?>
 	<?php include 'navigation/fullSidebar_home.php'; ?>
 
 	<div id="contentSample">
