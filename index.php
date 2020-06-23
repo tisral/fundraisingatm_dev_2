@@ -12,7 +12,8 @@
 <body>
 
 <?php include 'includes/header.inc.php'; ?>
-<?php include 'navigation/fullSidebar_home.php'; ?>
+<!-- <?php include 'navigation/fullSidebar_home.php'; ?> --> 
+
 
 
     <div class="container">
