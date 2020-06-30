@@ -12,8 +12,6 @@
 <body>
 
 <?php include 'includes/header.inc.php'; ?>
-<?php include 'navigation/fullSidebar_home.php'; ?>
-
 
     <div class="container">
     	 <section id="homecards" class="row center-block">

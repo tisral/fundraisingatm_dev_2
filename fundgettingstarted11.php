@@ -8,7 +8,7 @@
       $groupID = $_GET['group'];
       $table = "sample_websites";
       $query = "SELECT * FROM $table WHERE samplewebID = $groupID";
-      $result = mysqli_query($link, $query) or die(mysqli_error());
+       $result = mysqli_query($link, $query) or die(mysqli_error());
       $row_count = mysqli_num_rows($result);
       if($row_count == '0'){
         echo "<br />Sample Website Not Found.<br />";
