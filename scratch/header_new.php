@@ -52,7 +52,7 @@ if(isset($_POST['login'])){
     <script type="text/javascript" src="js/script.js"></script>
 
     <!-- function for loading basic content for browser with JS disabled -->
-	<script>
+	<!-- <script>
 	/*! loadCSS. [c]2017 Filament Group, Inc. MIT License */
 	!function(a){"use strict";var b=function(b,c,d){function e(a){return h.body?a():void setTimeout(function(){e(a)})}function f(){i.addEventListener&&i.removeEventListener("load",f),i.media=d||"all"}var g,h=a.document,i=h.createElement("link");if(c)g=c;else{var j=(h.body||h.getElementsByTagName("head")[0]).childNodes;g=j[j.length-1]}var k=h.styleSheets;i.rel="stylesheet",i.href=b,i.media="only x",e(function(){g.parentNode.insertBefore(i,c?g:g.nextSibling)});var l=function(a){for(var b=i.href,c=k.length;c--;)if(k[c].href===b)return a();setTimeout(function(){l(a)})};return i.addEventListener&&i.addEventListener("load",f),i.onloadcssdefined=l,l(f),i};"undefined"!=typeof exports?exports.loadCSS=b:a.loadCSS=b}("undefined"!=typeof global?global:this);
 	/*! loadCSS rel=preload polyfill. [c]2017 Filament Group, Inc. MIT License */
@@ -60,220 +60,7 @@ if(isset($_POST['login'])){
 	</script>
 
 	<!--google analytics-->
-	<script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-      ga('create', 'UA-88659906-1', 'auto');
-      ga('send', 'pageview');
-    </script>
-    <script>
- /* activate the carousel */
-$("#modal-carousel").carousel({interval:false});
-
-/* change modal title when slide changes */
-$("#modal-carousel").on("slid.bs.carousel", function () {
-  $(".modal-title").html($(this).find(".active img").attr("title"));
-})
-
-/* when clicking a thumbnail */
-$(".row .thumbnail").click(function(){
-    var content = $(".carousel-inner");
-    var title = $(".modal-title");
-
-    content.empty();
-    title.empty();
-
-  	var id = this.id;
-    var repo = $("#img-repo .item");
-    var repoCopy = repo.filter("#" + id).clone();
-    var active = repoCopy.first();
-
-    active.addClass("active");
-    title.html(active.find("img").attr("title"));
-  	content.append(repoCopy);
-
-    // show the modal
-  	$("#modal-gallery").modal("show");
-});
-</script>
-	<script>
-		function calculateSchool(orgType) {
-		        var price = 35;
-		        var commission = .35;
-			//elementary schools
-			//var num7 = Number(document.getElementById("Enum").value);
-			//var fund7 = Number(document.getElementById("Efund").value);
-			var people7 = Number(document.getElementById("Epeople").value);
-			var percent7 = (Number(document.getElementById("Epercent").value))/100;
-			var active7 = people7 * percent7;
-			active7 = Number(active7);
-			//document.getElementById("Eactive").innerHTML = active7;
-			var baskets7 = Number(document.getElementById("Ebaskets").value);
-			var numPerYear7 = Number(document.getElementById("EnumPerYear").value);
-			var total7 = baskets7 * numPerYear7 * price * commission * active7;
-			var result7 =  format(total7,2);
-			document.getElementById("Etotal").innerHTML = result7;
-		}
-		function format(num, dec) {
-	        	return Math.round(num*Math.pow(10,dec))/Math.pow(10,dec);
-	        }
-	</script>
-
-	<script>
-		function getUrlVars() {
-		    var vars = {};
-		    var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
-		        vars[key] = value;
-		    });
-		    return vars;
-		}
-		var group = getUrlVars()["group"];
-	</script>
-
-	<script src="http://app.ecwid.com/script.js?" charset="utf-8"></script>
-	<script>xAffiliate('24503');</script>
-	<script> xProductBrowser("categoriesPerRow=3","views=grid(5,4) list(10) table(20)","categoryView=grid","searchView=list","style="); </script>
-
-
-
-  <!-- jequery for validation -- ensures fields at least have text -->
-  <script>
-    var $formLogin = $('#loginform');
-    var $formLost = $('#lost-form');
-    var $modalAnimateTime = 300;
-    var $msgAnimateTime = 150;
-    var $msgShowTime = 2000;
-
-    $("#login_btn").submit(function () {
-        switch(this.id) {
-            case "loginform":
-                var $username=$('#loginemail').val();
-                var $password=$('#loginpassword').val();
-                return false;
-                break;
-            default:
-                return false;
-        }
-        return false;
-    });
-  </script>
-
-   <!-- prevent side navigation from collapsing when mobile users attempt to toggle a dropdown -->
-   <script>
-    $(document).ready(function(){
-    $('li.dropdown a').on("click", function(){
-      $(this).parent().toggleClass('open');
-      });
-      $('body.canvas-slid').on('click', function (e) {
-      if (!$('li.dropdown').is(e.target) && $('li.dropdown').has(e.target).length === 0 && $('.open').has(e.target).length === 0)  {
-          $('li.dropdown').removeClass('open');
-        }
-        e.stopPropagation();
-        e.preventDefault();
-      });
-        $('#accountIcon, #accountIconMobile').click(function () {
-            $('login-modal').modal({
-                show: true
-            })
-        });
-            $(document).on('show.bs.modal', '.modal', function (event) {
-                var zIndex = 1040 + (10 * $('.modal:visible').length);
-                $(this).css('z-index', zIndex);
-                setTimeout(function() {
-                    $('.modal-backdrop').not('.modal-stack').css('z-index', zIndex - 1).addClass('modal-stack');
-                }, 0);
-            }); $('[data-toggle="tooltip"]').tooltip();
-    });
-
-  </script>
-
-    <script>/* remove containers so dropdowns are consistant inside sidenavigation */
-        $(function () {
-        $(window).on('load, resize', function () {
-            var viewportWidth = $(window).width();
-            if (viewportWidth < 1183) {
-                $(".dropdown-menu #dropdownrow-large").removeClass("container");
-                 $(".dropdown-menu #dropdownrow").removeClass("container").removeClass("container-fluid");
-            }else{
-                $(".dropdown-menu #dropdownrow-large").addClass("container"),
-                $(".dropdown-menu #dropdownrow").addClass("container").addClass("container-fluid");
-            }
-        })
-        .resize();
-        });
-     </script>
-
-     <script> //pause play carousel, switch active classes depedning on button clicked */
-        $(function () {
-            $('#carousel-presentation').carousel({
-                interval:6500,
-                pause: "false"
-            });
-            $('#playButton').click(function () {
-                $('#carousel-presentation').carousel('cycle');
-                $('#pauseButton').removeClass('active');
-            });
-            $('#pauseButton').click(function () {
-                $('#carousel-presentation').carousel('pause');
-                $('#pauseButton').addClass('active');
-                $('#playButton').removeClass('active');
-            });
-        });
-	</script>
-     <!--search page tabs-->
-     <script>
-         $('ul.tabs').each(function(){
-  // For each set of tabs, we want to keep track of
-  // which tab is active and its associated content
-  var $active, $content, $links = $(this).find('a');
-
-  // If the location.hash matches one of the links, use that as the active tab.
-  // If no match is found, use the first link as the initial active tab.
-  $active = $($links.filter('[href="'+location.hash+'"]')[0] || $links[0]);
-  $active.addClass('active');
-
-  $content = $($active[0].hash);
-
-  // Hide the remaining content
-  $links.not($active).each(function () {
-    $(this.hash).hide();
-  });
-
-  // Bind the click event handler
-  $(this).on('click', 'a', function(e){
-    // Make the old tab inactive.
-    $active.removeClass('active');
-    $content.hide();
-
-    // Update the variables with the new link and content
-    $active = $(this);
-    $content = $(this.hash);
-
-    // Make the tab active.
-    $active.addClass('active');
-    $content.show();
-
-    // Prevent the anchor's default click action
-    e.preventDefault();
-  });
-});
-     </script>
-     <script>
-  $('#state').change(function () {
-      $('#search1').hide();
-    if ($("#state").val() !== "") {
-        $('#search1').show();
-    } else $("#search1").hide();
-});
-     </script>
-
-
-     <script>
-     $('#logo').addClass('animated bounceOutLeft');
-     </script>
 
 
      <script>
@@ -350,13 +137,12 @@ $(".row .thumbnail").click(function(){
                 <noscript><link rel="stylesheet" href="css2/bootstrap.css"></noscript><!-- load styles for browsers with JS disabled -->
 
                 <li class="dropright dropdown" id="mainCategoryType">
-                    <a href="greatmoodsMall.php?group=<?php echo $_GET['group'];
-                    ?>&storeid=900#!/Womens/c/18159169/offset=0&sort=priceAsc"
+                    <a href="#"
                    data-toggle="dropdown disabled" role="button"
                     aria-haspopup="true" aria-expanded="false">
                     Women<span class="sr-only"></span>
                     </a>
-                      <?php include 'menu/menu_women.php'; ?>
+                      <?php# include 'menu/menu_women.php'; ?>
                 </li><br>
 
                 <li class="dropright dropdown" id="mainCategoryType">
