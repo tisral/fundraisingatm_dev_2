@@ -1,14 +1,11 @@
-
-<!-- June 29, 2020 , Version 1.0 -->
+<!-- July 9, 2020 , Version 1.0 -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type=text/css href="scratch.css">
-
-    
-    <title>Document</title>
+    <title>Header</title>
   </head>
   <body>
     <div class="container">
@@ -35,7 +32,10 @@
     </div>
     <!-- END above nav elements -->
 
-    <nav class="navbar navbar-expand-lg navbar-dark text-white" style="background-color: #cc0000;" >
+    <nav
+      class="navbar navbar-expand-lg navbar-dark text-light"
+      style="background-color: #cc0000;"
+    >
       <!-- <a class="navbar-brand" href="#">Navbar</a> -->
       <div class="container">
         <button
@@ -54,18 +54,20 @@
           <ul class="navbar-nav mr-auto">
             <li class="nav-item dropdown">
               <a
-                class="nav-link dropdown-toggle text-white"
+                class="nav-link dropdown-toggle text-light"
                 href="#"
-                id="navbarDropdown"
+                id="mallStoreNavbarDropdown"
                 role="button"
                 data-toggle="dropdown"
                 aria-haspopup="true"
                 aria-expanded="false"
-                
               >
                 Mall Store
               </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <div
+                class="dropdown-menu"
+                aria-labelledby="mallStoreNavbarDropdown"
+              >
                 <a class="dropdown-item" href="#">Women</a>
                 <a class="dropdown-item" href="#">Men</a>
                 <a class="dropdown-item" href="#">Accessories</a>
@@ -85,9 +87,9 @@
 
             <li class="nav-item dropdown">
               <a
-                class="nav-link dropdown-toggle  text-white"
+                class="nav-link dropdown-toggle text-light"
                 href="#"
-                id="navbarDropdown"
+                id="fundraisingProgramNavbarDropdown"
                 role="button"
                 data-toggle="dropdown"
                 aria-haspopup="true"
@@ -95,7 +97,10 @@
               >
                 Fundraising Program
               </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <div
+                class="dropdown-menu"
+                aria-labelledby="fundraisingProgramNavbarDropdown"
+              >
                 <a class="dropdown-item" href="#">Program Overview</a>
                 <a class="dropdown-item" href="#">Mission Statement</a>
                 <a class="dropdown-item" href="#">Accessories</a>
@@ -120,9 +125,9 @@
             </li>
             <li class="nav-item dropdown">
               <a
-                class="nav-link dropdown-toggle text-white"
+                class="nav-link dropdown-toggle text-light"
                 href="#"
-                id="navbarDropdown"
+                id="fundraisingExemplesNavbarDropdown"
                 role="button"
                 data-toggle="dropdown"
                 aria-haspopup="true"
@@ -130,7 +135,10 @@
               >
                 Fundraising Exemples
               </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <div
+                class="dropdown-menu"
+                aria-labelledby="fundraisingExemplesNavbarDropdown"
+              >
                 <a class="dropdown-item" href="#">Schools</a>
                 <a class="dropdown-item" href="#">Organizations</a>
               </div>
@@ -156,9 +164,6 @@
             <i class="fas fa-user-circle fa-3x"></i>
           </a>
         </row>
-        <!-- <row>
-          <p>Account</p>
-        </row> -->
       </div>
 
       <!-- Modal -->
@@ -220,63 +225,27 @@
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
               </form>
-            <!-- </div> -->
-            <div class="modal-footer">
-              <button
-                type="button"
-                class="btn btn-secondary"
-                data-dismiss="modal"
-              >
-                Close
-              </button>
-              <button type="button" class="btn btn-primary">
-                Send message
-              </button>
+              <!-- </div> -->
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-dismiss="modal"
+                >
+                  Close
+                </button>
+                <button type="button" class="btn btn-primary">
+                  Send message
+                </button>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </nav>
 
-    <br />
-    <br />
-    <br />
-
-    <div class="container">
-      <div class="row justify-content-around">
-        <div class="col-lg-4 col-md-6 col-sm-6">
-          <div class="card">
-            <img
-              class="card-img-top"
-              src="../images/Team-Pic.jpg"
-              alt="Card image cap"
-            />
-            <div class="card-body">
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 col-sm-6">
-          <div class="card">
-            <img
-              class="card-img-top"
-              src="../images/Fundraiser-HP.jpg"
-              alt="Card image cap"
-            />
-            <div class="card-body">
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -299,5 +268,29 @@
       crossorigin="anonymous"
     ></script>
 
+    <!-- Handling buttons -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+    <!-- Alternative to handle buttons -->
+
+    <!-- <script>
+      //  Handling dropdown clicks
+      $(document).ready(function () {
+        $("#mallStoreNavbarDropdown").dropdown();
+      });
+      $(document).ready(function () {
+        $("#fundraisingProgramNavbarDropdown").dropdown();
+      });
+      $(document).ready(function () {
+        $("#fundraisingExemplesNavbarDropdown").dropdown();
+      });
+
+      // $(document).ready(function () {
+      //   $("#close").click();
+      // });
+    </script> -->
   </body>
 </html>
