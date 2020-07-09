@@ -1,13 +1,24 @@
 <!-- June 29, 2020 , Version 1.0 -->
-<!DOCTYPE html>
-<html lang="en">
+<?php
+if(isset($_POST['login'])){
+    session_start();
+    ob_start();
+    require_once('logInUser.inc.php');
+
+}
+?>
+
+
+
+
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type=text/css href="scratch.css">
     <title>Document</title>
+
   </head>
-  <body>
+  <header>
     <div class="container">
       <!-- START above nav elements content container -->
 
@@ -61,8 +72,15 @@
               >
                 Mall Store
               </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Women</a>
+
+              <ul class="dropdown-menu">
+                <li class="dropdown" id="mainCategoryType">
+                    <a href="greatmoodsMall.php?group=<?php echo $_GET['group']; ?>&storeid=900#!/Womens/c/18159169/offset=0&sort=priceAsc" data-toggle="dropdown disabled" role="button" aria-haspopup="true" aria-expanded="false">Women<span class="sr-only"></span></a>
+                      <?php include 'menu/menu_women.php'; ?>
+                </li><br>
+              </ul>
+              <!--<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Women </a>
                 <a class="dropdown-item" href="#">Men</a>
                 <a class="dropdown-item" href="#">Accessories</a>
                 <a class="dropdown-item" href="#">Jewelry</a>
@@ -79,7 +97,9 @@
 
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#">Something else here</a>
+
               </div>
+              -->
             </li>
 
             <li class="nav-item dropdown">
@@ -371,5 +391,4 @@
     ></script>
 
     <script src="scracth.js"></script>
-  </body>
-</html>
+  </header>

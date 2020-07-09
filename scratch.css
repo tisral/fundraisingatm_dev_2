@@ -2080,6 +2080,7 @@
     opacity: 1;
   }
 
+
   .form-control:-ms-input-placeholder {
     color: #6c757d;
     opacity: 1;
@@ -10221,8 +10222,5 @@
       border-color: #dee2e6;
     }
   }
-  .dropdown:hover .dropdown-menu {
-    display: block;
-    margin-top: 0; // remove the gap so it doesn't close
- }
+
   /*# sourceMappingURL=bootstrap.css.map */

@@ -55,11 +55,11 @@
 .leftbar[aria-expanded=true]{
 width: 300px;
 overflow:hidden;
-} 
+}
 .leftbar[aria-expanded=false]{
     width: 35px !important;
     overflow:hidden;
-} 
+}
 /* position absolute for medium screen widths */
 @media(max-width:991px){
     .leftbar{
@@ -77,8 +77,8 @@ overflow:hidden;
 
 <script>    // finds aria expanded state. Assigns aria-expanded state so the leftbar can be toggled
   function toggleAria() {
-    var x = document.getElementById("collapseExample2").getAttribute("aria-expanded"); 
-      if (x == "true") 
+    var x = document.getElementById("collapseExample2").getAttribute("aria-expanded");
+      if (x == "true")
       {
       x = "false";
       } else {
@@ -93,7 +93,7 @@ overflow:hidden;
        <a data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample" onclick="toggleAria()" ontouchend="onclick=toggleAria" >
             <span  id="collapseExample" class="fa fa-chevron-left"   style="color:black"><b style="color:black;font-family:helvetica;font-size:15px;padding-left:20px;">Close Menu</b></span>
             <span  id="collapseExample" class="fa fa-chevron-right" style="color:black;font-size:21px;padding-left: 2px;"></span>
-        </a>    
+        </a>
     </div>
     <div class="item"><div class="tooltip">Welcome<span class="tooltiptext">Tooltip text</span>
         <a href="welcome.php">
@@ -104,7 +104,7 @@ overflow:hidden;
         <a href="gm_programoverview.php">
             <span class="fa fa-desktop navicon"></span>FundraisingATM Overview
         </a>
-    </div>  
+    </div>
     <div class="item">
         <a href="mission.php">
             <span class="fa fa-list-ul navicon"></span>FundraisingATM's Mission
@@ -114,7 +114,7 @@ overflow:hidden;
         <a href="onlinefundraising.php">
             <span class="fa fa-mouse-pointer navicon"></span>FundraisingATM Online Fundraising
         </a>
-     </div>         
+     </div>
     <div class="item">
         <a href="program.php">
             <span class="fa fa-star navicon"></span>Strengths of the FundraisingATM Program
@@ -125,27 +125,27 @@ overflow:hidden;
             <span class="fa fa-line-chart navicon"></span>3 Steps to Fundraising $uccess!
         </a>
     </div>
-    <div class="item">        
-	<a href="opportunities.php"><i class="fa fa-shopping-cart navicon"></i> FundraisingATM Mall Products & Gifts</a>
+    <div class="item">
+	<a href="opportunities.php"><span class="fa fa-shopping-cart navicon"></span> FundraisingATM Mall Products & Gifts</a>
     </div>
 
     <div class="item">
-            <a href="deliver.php"><i class="fa fa-truck navicon"></i> We Deliver!</a>
+            <a href="deliver.php"><span class="fa fa-truck navicon"></span> We Deliver!</a>
     </div>
     <div class="item">
-            <a href="cash.php"><i class="fa fa-money navicon"></i> Cash Deposited Weekly!</a>
+            <a href="cash.php"><span class="fa fa-money navicon"></span> Cash Deposited Weekly!</a>
     </div>
     <div class="item">
-            <a href="calculator.php"><i class="fa fa-calculator navicon"></i> Calculate Your $uccess</a>
+            <a href="calculator.php"><san class="fa fa-calculator navicon"></span> Calculate Your $uccess</a>
     </div>
     <div class="item">
-            <a href="generatefunds.php"><i class="fa fa-calendar navicon"></i> Generate Funds 24/7/365 Days a Year!</a>
+            <a href="generatefunds.php"><span class="fa fa-calendar navicon"></span> Generate Funds 24/7/365 Days a Year!</a>
     </div>
     <div class="item">
-            <a href="gettingstarted_sendemail.php"><i class="fa fa-check navicon"></i> Get Started Today! Contact Your Rep!</a>
+            <a href="gettingstarted_sendemail.php"><span class="fa fa-check navicon"></span> Get Started Today! Contact Your Rep!</a>
     </div>
 
     <!--<div class="item">-->
     <!--    <a id="sidebar-collapse" role="button"><span class="fa fa-chevron-right"></span></a>-->
     <!--</div>    -->
-</div>    
+</div>
