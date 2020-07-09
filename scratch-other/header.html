@@ -9,7 +9,7 @@
   </head>
   <body>
     <div class="container">
-      <!-- START above nav elements content container -->
+      <!-- Logos-->
 
       <div class="row">
         <div class="col-4">
@@ -30,13 +30,12 @@
         </div>
       </div>
     </div>
-    <!-- END above nav elements -->
 
+    <!-- START of nav elements -->
     <nav
-      class="navbar navbar-expand-lg navbar-dark text-light"
+      class="navbar navbar-expand-lg navbar-dark"
       style="background-color: #cc0000;"
     >
-      <!-- <a class="navbar-brand" href="#">Navbar</a> -->
       <div class="container">
         <button
           class="navbar-toggler"
@@ -158,15 +157,16 @@
         </div>
       </div>
 
+      <!-- Account icon button -->
       <div>
         <row>
           <a data-toggle="modal" data-target="#exampleModal">
-            <i class="fas fa-user-circle fa-3x"></i>
+            <i class="fas fa-user-circle fa-3x" style="color: #ffff;"></i>
           </a>
         </row>
       </div>
 
-      <!-- Modal -->
+      <!-- Account icon popup dialog box -->
 
       <div
         class="modal fade"
@@ -179,7 +179,14 @@
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+              <!-- <h5 class="modal-title" id="exampleModalLabel">New message</h5> -->
+              <img
+                class="img-fluid"
+                style="width: 50mm;"
+                src="../newdeal/images/fundatm_logo.png"
+                alt="FATMlogo"
+                id="logo"
+              />
               <button
                 type="button"
                 class="close"
@@ -198,7 +205,6 @@
                     class="form-control"
                     id="exampleInputEmail1"
                     aria-describedby="emailHelp"
-                    placeholder="Enter email"
                   />
                   <small id="emailHelp" class="form-text text-muted"
                     >We'll never share your email with anyone else.</small
@@ -210,34 +216,34 @@
                     type="password"
                     class="form-control"
                     id="exampleInputPassword1"
-                    placeholder="Password"
                   />
                 </div>
                 <div class="form-group form-check">
-                  <input
+                  <!-- <input
                     type="checkbox"
                     class="form-check-input"
                     id="exampleCheck1"
-                  />
-                  <label class="form-check-label" for="exampleCheck1"
+                  /> -->
+                  <!-- <label class="form-check-label" for="exampleCheck1"
                     >Check me out</label
-                  >
+                  > -->
+
+                  <button type="button" class="btn btn-primary">
+                    Login
+                  </button>
+
+                  <a style="margin-left: 30mm;" href="#">Forgot Password </a>
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
               </form>
-              <!-- </div> -->
-              <div class="modal-footer">
-                <button
-                  type="button"
-                  class="btn btn-secondary"
-                  data-dismiss="modal"
-                >
-                  Close
-                </button>
-                <button type="button" class="btn btn-primary">
-                  Send message
-                </button>
-              </div>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-dismiss="modal"
+              >
+                Close
+              </button>
             </div>
           </div>
         </div>
