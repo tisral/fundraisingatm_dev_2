@@ -11,7 +11,7 @@
 
 <body>
 
-<?php include 'includes/header.inc.php'; ?>
+<?php include 'scratch/header_new.php'; ?>
 
     <div class="container">
     	 <section id="homecards" class="row center-block">

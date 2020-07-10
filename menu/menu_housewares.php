@@ -3,21 +3,21 @@
 
 <!-- Store Category - Housewares -->
 
-<ul class="dropdown-menu dropdown-menu-right home">
+<ul class="dropdown-menu dropdown-menu-right">
 	<div id="dropdownrow" class= "row-fluid row-flex container" >
 	<!--<div class="nav-column">
         <h3><a href="../greatmoodsMall.php?group=<?php echo $_GET['group']; ?>&storeid=115#!/Dream House Accessories/c/18209795/offset=0&sort=priceAsc">Dream House Accessories</a></h3>
 		    <ul>
 		        <li><a href="../greatmoodsMall.php?group=<?php echo $_GET['group']; ?>&storeid=115#!/Best-Sellers-&-Bundles/c/18209796/offset=0&sort=priceAsc">Best Sellers & Bundles </a></li>
-		        <li><a href="../greatmoodsMall.php?group=<?php echo $_GET['group']; ?>&storeid=115#!/Baskets & Boxes/c/18209797/offset=0&sort=priceAsc">Baskets & Boxes</a></li>				
+		        <li><a href="../greatmoodsMall.php?group=<?php echo $_GET['group']; ?>&storeid=115#!/Baskets & Boxes/c/18209797/offset=0&sort=priceAsc">Baskets & Boxes</a></li>
 		        <li><a href="../greatmoodsMall.php?group=<?php echo $_GET['group']; ?>&storeid=115#!/Candles & Decor/c/18209798/offset=0&sort=priceAsc">Candles & Decor</a></li>
 		        <li><a href="../greatmoodsMall.php?group=<?php echo $_GET['group']; ?>&storeid=115#!/Florals & Garlands/c/18209799/offset=0&sort=priceAsc">Florals & Garlands</a></li>
-		        <li><a href="../greatmoodsMall.php?group=<?php echo $_GET['group']; ?>&storeid=115#!/Photo Frames/c/18209800/offset=0&sort=priceAsc">Photo Frames</a></li>				
+		        <li><a href="../greatmoodsMall.php?group=<?php echo $_GET['group']; ?>&storeid=115#!/Photo Frames/c/18209800/offset=0&sort=priceAsc">Photo Frames</a></li>
 		        <li><a href="../greatmoodsMall.php?group=<?php echo $_GET['group']; ?>&storeid=115#!/Ornaments/c/18209801/offset=0&sort=priceAsc">Ornaments</a></li>
-		        <li><a href="../greatmoodsMall.php?group=<?php echo $_GET['group']; ?>&storeid=115#!/Signs & Wall Art/c/18209802/offset=0&sort=priceAsc">Signs & Wall Art</a></li>				
+		        <li><a href="../greatmoodsMall.php?group=<?php echo $_GET['group']; ?>&storeid=115#!/Signs & Wall Art/c/18209802/offset=0&sort=priceAsc">Signs & Wall Art</a></li>
 	        </ul>
 	</div> --> <!-- end column  -->
-	
+
 	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-5-12  vertical-divider col-flex-item" id="col_dropdown">
 		<ul class="multi-column-dropdown">
 			<span class="col-flex-item divider"></span>
@@ -30,16 +30,16 @@
 				<li><a href="../greatmoodsMall.php?group=<?php echo $_GET['group']; ?>&storeid=855#!/Kids-Blankets/c/19994017/offset=0&sort=priceAsc">Kid's Blankets</a></li>
 				<li><a href="../greatmoodsMall.php?group=<?php echo $_GET['group']; ?>&storeid=855#!/Kids-Sleeping-Bags/c/19994016/offset=0&sort=priceAsc">Kid's Sleeping Bags</a></li>
 		        <li><a href="../greatmoodsMall.php?group=<?php echo $_GET['group']; ?>&storeid=855#!/Stadium Blankets/c/18209807/offset=0&sort=priceAsc">Stadium Blankets</a></li>
-		        <!--<li><a href="../greatmoodsMall.php?group=<?php echo $_GET['group']; ?>&storeid=855#!/Fleece Blankets/c/18209808/offset=0&sort=priceAsc">Fleece Blankets</a></li>				
+		        <!--<li><a href="../greatmoodsMall.php?group=<?php echo $_GET['group']; ?>&storeid=855#!/Fleece Blankets/c/18209808/offset=0&sort=priceAsc">Fleece Blankets</a></li>
 		        <li><a href="../greatmoodsMall.php?group=<?php echo $_GET['group']; ?>&storeid=855#!/Plush Blankets/c/18209809/offset=0&sort=priceAsc">Plush Blankets</a></li>
 		        <li><a href="../greatmoodsMall.php?group=<?php echo $_GET['group']; ?>&storeid=855#!/Flannel Blankets/c/18209811/offset=0&sort=priceAsc">Flannel Blankets</a></li>
-		        <li><a href="../greatmoodsMall.php?group=<?php echo $_GET['group']; ?>&storeid=855#!/Travel & Outdoor Blankets/c/18209812/offset=0&sort=priceAsc">Travel & Outdoor Blankets</a></li> -->			
+		        <li><a href="../greatmoodsMall.php?group=<?php echo $_GET['group']; ?>&storeid=855#!/Travel & Outdoor Blankets/c/18209812/offset=0&sort=priceAsc">Travel & Outdoor Blankets</a></li> -->
 		        <li><a href="../greatmoodsMall.php?group=<?php echo $_GET['group']; ?>&storeid=855#!/Shawls & Wraps/c/18209813/offset=0&sort=priceAsc">Shawls & Wraps</a></li>
 		        <!--<li><a href="../greatmoodsMall.php?group=<?php echo $_GET['group']; ?>&storeid=855#!/Cold Weather Comfort/c/18209814/offset=0&sort=priceAsc">Cold Weather Comfort</a></li>
-		        <li><a href="../greatmoodsMall.php?group=<?php echo $_GET['group']; ?>&storeid=855#!/Seniors/c/18209815/offset=0&sort=priceAsc">Seniors</a></li> -->						
+		        <li><a href="../greatmoodsMall.php?group=<?php echo $_GET['group']; ?>&storeid=855#!/Seniors/c/18209815/offset=0&sort=priceAsc">Seniors</a></li> -->
 		</ul>
 	</div> <!-- end column 1 -->
-	
+
 	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-5-12  vertical-divider col-flex-item" id="col_dropdown">
 		<ul class="multi-column-dropdown">
 			<span class="col-flex-item divider"></span>
@@ -55,8 +55,8 @@
 				<li><a href="../greatmoodsMall.php?group=<?php echo $_GET['group']; ?>&storeid=922#!/Man-Cave/c/19994028/offset=0&sort=priceAsc">Man Cave</a></li>
 				<li><a href="../greatmoodsMall.php?group=<?php echo $_GET['group']; ?>&storeid=922#!/Picture-Frames/c/19994027/offset=0&sort=priceAsc">Picture Frames</a></li>
 		</ul>
-	</div> <!-- end column 2 -->	
-	
+	</div> <!-- end column 2 -->
+
 	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-5-12  vertical-divider col-flex-item" id="col_dropdown">
 		<ul class="multi-column-dropdown">
 		  <span class="col-flex-item divider"></span>
@@ -66,7 +66,7 @@
 				<li><a href="../greatmoodsMall.php?group=<?php echo $_GET['group']; ?>&storeid=908#!/Rugs/c/19994038/offset=0&sort=priceAsc">Rugs</a></li>
 		</ul>
 	</div> <!-- end column 3 -->
-	
+
 	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-5-12  vertical-divider col-flex-item" id="col_dropdown">
 		<ul class="multi-column-dropdown">
 		<span class="col-flex-item divider"></span>
@@ -77,7 +77,7 @@
 				<li><a href="../greatmoodsMall.php?group=<?php echo $_GET['group']; ?>&storeid=915#!/Family/c/19994043/offset=0&sort=priceAsc">Family</a></li>
 		</ul>
 	</div> <!-- end column 4 -->
-	
+
 	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-5-12" id="col_dropdown">
 		<ul class="multi-column-dropdown">
 		 <span class="col-flex-item divider"></span>

@@ -2,7 +2,7 @@
 ?>
 
 
-		<ul class="dropdown-menu dropdown-menu-right biz">
+		<ul class="dropdown-menu dropdown-menu-right">
 			<div id="dropdownrow" class= "row-fluid" >
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="col_dropdown">
 					<ul class="multi-column-dropdown">
@@ -17,8 +17,8 @@
 				<li><a href="../greatmoodsMall.php?group=<?php echo $_GET['group']; ?>&storeid=891#!/Party-Assortments/c/19994128/offset=0&sort=priceAsc">Party Assortments</a></li>
 		        	<li><a href="../greatmoodsMall.php?group=<?php echo $_GET['group']; ?>&storeid=891#!/Accessory Gifts/c/18209943/offset=0&sort=priceAsc">Accessory Gifts</a></li>
 		        	<li><a href="../greatmoodsMall.php?group=<?php echo $_GET['group']; ?>&storeid=891#!/Tech Gifts/c/18209944/offset=0&sort=priceAsc">Tech Gifts</a></li>
-		        	<li><a href="../greatmoodsMall.php?group=<?php echo $_GET['group']; ?>&storeid=891#!/Special Friends/c/18209945/offset=0&sort=priceAsc">Special Friends</a></li> -->				
-						<li><a href="../greatmoodsMall.php?group=<?php echo $_GET['group']; ?>&storeid=891#!/Briefcases/c/19994140/offset=0&sort=priceAsc">Briefcases</a></li>	
+		        	<li><a href="../greatmoodsMall.php?group=<?php echo $_GET['group']; ?>&storeid=891#!/Special Friends/c/18209945/offset=0&sort=priceAsc">Special Friends</a></li> -->
+						<li><a href="../greatmoodsMall.php?group=<?php echo $_GET['group']; ?>&storeid=891#!/Briefcases/c/19994140/offset=0&sort=priceAsc">Briefcases</a></li>
 						<li><a href="../greatmoodsMall.php?group=<?php echo $_GET['group']; ?>&storeid=891#!/Planners/c/19994139/offset=0&sort=priceAsc">Planners</a></li>
 						<li><a href="../greatmoodsMall.php?group=<?php echo $_GET['group']; ?>&storeid=891#!/Gadgets-&-Gizmos/c/19994138/offset=0&sort=priceAsc">Gadgets & Gizmos</a></li>
 						<li><a href="../greatmoodsMall.php?group=<?php echo $_GET['group']; ?>&storeid=891#!/Luggage-&-Travel/c/19994137/offset=0&sort=priceAsc">Luggage & Travel</a></li>
@@ -27,24 +27,24 @@
 						<li><a href="../greatmoodsMall.php?group=<?php echo $_GET['group']; ?>&storeid=891#!/Purses/c/19994134/offset=0&sort=priceAsc">Purses</a></li>
 						<li><a href="../greatmoodsMall.php?group=<?php echo $_GET['group']; ?>&storeid=891#!/Wallets/c/19994133/offset=0&sort=priceAsc">Wallets</a></li>
 					</ul>
-  				</div> <!--close col 1 -->	
+  				</div> <!--close col 1 -->
 
-            
+
 	<!--<div class="nav-column">
         <h3><a href="../greatmoodsMall.php?group=<?php echo $_GET['group']; ?>&storeid=892#!/Career Center/c/18209946/offset=0&sort=priceAsc">Career Center</a></h3>
 		<ul>
-		        <li><a href="../greatmoodsMall.php?group=<?php echo $_GET['group']; ?>&storeid=892#!/Best-Sellers-&-Bundles/c/18209947/offset=0&sort=priceAsc">Best Sellers & Bundles </a></li> 
-		        <li><a href="../greatmoodsMall.php?group=<?php echo $_GET['group']; ?>&storeid=892#!/Apparel/c/18209948/offset=0&sort=priceAsc">Apparel</a></li>				
+		        <li><a href="../greatmoodsMall.php?group=<?php echo $_GET['group']; ?>&storeid=892#!/Best-Sellers-&-Bundles/c/18209947/offset=0&sort=priceAsc">Best Sellers & Bundles </a></li>
+		        <li><a href="../greatmoodsMall.php?group=<?php echo $_GET['group']; ?>&storeid=892#!/Apparel/c/18209948/offset=0&sort=priceAsc">Apparel</a></li>
 		        <li><a href="../greatmoodsMall.php?group=<?php echo $_GET['group']; ?>&storeid=892#!/Briefcases & Wallets/c/18209949/offset=0&sort=priceAsc">Briefcases & Wallets</a></li>
-		        <li><a href="../greatmoodsMall.php?group=<?php echo $_GET['group']; ?>&storeid=892#!/Tech Bags/c/18209950/offset=0&sort=priceAsc">Tech Bags</a></li>	
+		        <li><a href="../greatmoodsMall.php?group=<?php echo $_GET['group']; ?>&storeid=892#!/Tech Bags/c/18209950/offset=0&sort=priceAsc">Tech Bags</a></li>
 		        <li><a href="../greatmoodsMall.php?group=<?php echo $_GET['group']; ?>&storeid=892#!/Luggage/c/18209951/offset=0&sort=priceAsc">Luggage</a></li>
-		        <li><a href="../greatmoodsMall.php?group=<?php echo $_GET['group']; ?>&storeid=892#!/Motivational/c/18209952/offset=0&sort=priceAsc">Motivational</a></li>				
+		        <li><a href="../greatmoodsMall.php?group=<?php echo $_GET['group']; ?>&storeid=892#!/Motivational/c/18209952/offset=0&sort=priceAsc">Motivational</a></li>
 	        </ul>
-			
+
         <h3><a href="../greatmoodsMall.php?group=<?php echo $_GET['group']; ?>&storeid=918#!/Timeless-Gifts/c/19994132/offset=0&sort=priceAsc">Timeless Gifts</a></h3>
 		<ul>
-		        <li><a href="#">Best Sellers & Bundles </a></li> 
-		        <li><a href="../greatmoodsMall.php?group=<?php echo $_GET['group']; ?>&storeid=918#!/Briefcases/c/19994140/offset=0&sort=priceAsc">Briefcases</a></li>	
+		        <li><a href="#">Best Sellers & Bundles </a></li>
+		        <li><a href="../greatmoodsMall.php?group=<?php echo $_GET['group']; ?>&storeid=918#!/Briefcases/c/19994140/offset=0&sort=priceAsc">Briefcases</a></li>
 			<li><a href="../greatmoodsMall.php?group=<?php echo $_GET['group']; ?>&storeid=918#!/Planners/c/19994139/offset=0&sort=priceAsc">Planners</a></li>
 			<li><a href="../greatmoodsMall.php?group=<?php echo $_GET['group']; ?>&storeid=918#!/Gadgets-&-Gizmos/c/19994138/offset=0&sort=priceAsc">Gadgets & Gizmos</a></li>
 			<li><a href="../greatmoodsMall.php?group=<?php echo $_GET['group']; ?>&storeid=918#!/Luggage-&-Travel/c/19994137/offset=0&sort=priceAsc">Luggage & Travel</a></li>
@@ -53,9 +53,9 @@
 			<li><a href="../greatmoodsMall.php?group=<?php echo $_GET['group']; ?>&storeid=918#!/Purses/c/19994134/offset=0&sort=priceAsc">Purses</a></li>
 			<li><a href="../greatmoodsMall.php?group=<?php echo $_GET['group']; ?>&storeid=918#!/Wallets/c/19994133/offset=0&sort=priceAsc">Wallets</a></li>
 		</ul>
-			
+
 	</div> --> <!-- end column 2 -->
-	
+
 	<!--<div class="nav-column">
         <h3><a href="../greatmoodsMall.php?group=<?php echo $_GET['group']; ?>&storeid=913#!/Motivational-Treasures/c/19994141/offset=0&sort=priceAsc">Motivational Treasures</a></h3>
 		    <ul>
